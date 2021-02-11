@@ -24,7 +24,7 @@ public class bookController {
 	@Autowired
 	private serviceInterface service;
 	
-	@RequestMapping(value = "/firstTime ")
+	@RequestMapping(value = "/firstTime")
 	public ResponseEntity<response> methodOne() {
 		response res = new response();
 		res.setName("Testing the Controller");
